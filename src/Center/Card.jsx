@@ -1,5 +1,5 @@
 import profilePic from '../assets/me.jpg'
-import styles from './Center.module.css'
+import styles from '../styles/Center.module.css'
 
 function Introduction()
 {

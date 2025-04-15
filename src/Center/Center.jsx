@@ -1,4 +1,4 @@
-import styles from './Center.module.css'
+import styles from '../styles/Center.module.css'
 import Introduction from './Card';
 
 function Center(){
