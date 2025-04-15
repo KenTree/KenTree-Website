@@ -1,0 +1,10 @@
+.welcomeText{
+    font-family: "Times New Roman";
+    margin: 0;
+    padding: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+

@@ -1,0 +1,26 @@
+.Categories {
+    margin-top: 10px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  /* Equal spacing between and around items */
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+  }
+
+.Categories div {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.Categories div:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
