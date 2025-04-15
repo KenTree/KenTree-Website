@@ -16,7 +16,7 @@ const AnimatedBackground = ({ children }) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0xF3A1F0,
+          color: 0x111111,
           shininess: 20,
           waveHeight: 40,
           waveSpeed: 0.4,

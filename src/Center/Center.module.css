@@ -1,10 +1,37 @@
 .welcomeText{
-    font-family: "Times New Roman";
-    margin: 0;
-    padding: 0px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: "Times New Roman";
+  text-wrap: wrap;
+  font-size: 58px;
+  text-decoration: underline;
+  margin: 0;
+  color: white;
+  text-align: center;
+  flex-shrink: 1; /* prevents it from being squished */
+  z-index: 5;
   }
 
+  .wrapper {
+    display: flex;
+    flex-direction: column;      /* ⬅️ this is new */
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+    padding: 2rem;
+  }
+
+  .profileWrapper{
+    background: linear-gradient(to right, #ffffff, #434343); /* your gradient */
+    padding: 0px; /* thickness of the gradient ring */
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+  }
+
+  .profileImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  }
