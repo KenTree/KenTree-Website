@@ -32,8 +32,6 @@ Every line of code in this project is written with intention — I’ve avoided 
 
 (Coming soon: [kentree.dev](https://kentree.dev))
 
-Deployed using **Vercel** / **Netlify** with a custom domain.
-
 ---
 
 ## 🧰 Tech Stack
@@ -45,27 +43,6 @@ Deployed using **Vercel** / **Netlify** with a custom domain.
 | CSS Modules     | Scoped component styles               |
 | Three.js / Vanta.js | Interactive 3D animated backgrounds |
 | Git & GitHub    | Version control and deployment         |
-
----
-
-## 📁 Folder Structure
-kenneth-react-app/
-├── public/                  # Static assets (favicon, index.html placeholder)
-├── src/                     # Main source code
-│   ├── assets/              # Images, logos, and other static content
-│   ├── components/          # Reusable UI components (e.g., Buttons, Navbar)
-│   ├── Center/              # Intro splash/profile section (image + title)
-│   ├── Categories/          # Navigation labels / section highlights
-│   ├── styles/              # Global CSS or shared styling rules
-│   ├── App.jsx              # Root component that sets up the layout
-│   ├── main.jsx             # Entry point that renders React to the DOM
-│   └── index.css            # Global base styles
-├── .gitignore               # Git ignored files
-├── index.html               # Main HTML template for Vite
-├── package.json             # Project metadata and dependencies
-├── vite.config.js           # Vite build and plugin configuration
-└── README.md                # You're reading it :)
-
 
 ---
 
