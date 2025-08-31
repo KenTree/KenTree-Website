@@ -5,7 +5,6 @@ const AnimatedBackground = ({ children }) => {
   const [vantaEffect, setVantaEffect] = useState(null);
 
   useEffect(() => {
-    // Use window.VANTA because it's loaded globally from the <script>
     if (!vantaEffect && window.VANTA?.WAVES) {
       setVantaEffect(
         window.VANTA.WAVES({
@@ -23,16 +22,22 @@ const AnimatedBackground = ({ children }) => {
         })
       );
     }
-
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
 
   return (
-    <div ref={vantaRef} style={{ height: "100vh", width: "100vw" }}>
-      <div className="center-screen">{children}</div>
-    </div>
+    <>
+      <div
+        ref={vantaRef}
+        className="animated-background"
+        style={{ zIndex: 0 }}
+      />
+      <div style={{ position: "relative", zIndex: 2 }}>
+        {children}
+      </div>
+    </>
   );
 };
 

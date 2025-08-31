@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   background-repeat: inherit;
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 /* This centers the children inside the Vanta background */
@@ -11,10 +11,23 @@ html, body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  position: relative;
+  position: fixed;
   z-index: 1;
   color: white;
   text-shadow: 2px 2px 10px black;
+}
+
+.animated-background {
+    position: fixed;
+      /* stay in the same place relative to viewport */
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      /* so user can interact with content above it */
+      z-index: 1;
+      /* behind everything */
 }
 
 .card-image {
