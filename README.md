@@ -10,7 +10,7 @@ This website was created not just as a portfolio, but also as **learning journey
 
 ## 🌐 Live Preview
 
-[kentree.dev](https://kentree.dev))
+[kentree.dev](https://kentree.dev)
 
 ---
 
