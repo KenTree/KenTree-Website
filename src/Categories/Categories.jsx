@@ -8,7 +8,7 @@ function Categories() {
       <div><a href="#projects">Projects</a></div>
       <div>
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
         >
