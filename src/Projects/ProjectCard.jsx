@@ -1,20 +1,20 @@
 import { useRef, useEffect, useState } from 'react';
 import styles from '../styles/ProjectCard.module.css';
 
-function ProjectCard({ image, title, description, link }) {
+function ProjectCard({ image, title, description, link, contribution }) {
   const cardRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
-useEffect(() => {
-  const observer = new window.IntersectionObserver(
-    ([entry]) => {
-      setVisible(entry.isIntersecting);
-    },
-    { threshold: 0.2 }
-  );
-  if (cardRef.current) observer.observe(cardRef.current);
-  return () => observer.disconnect();
-}, []);
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        setVisible(entry.isIntersecting);
+      },
+      { threshold: 0.2 }
+    );
+    if (cardRef.current) observer.observe(cardRef.current);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div
@@ -27,6 +27,12 @@ useEffect(() => {
       <div className={styles.details}>
         <h3>{title}</h3>
         <p>{description}</p>
+        {contribution && (
+          <p>
+            <strong>My Contribution: </strong>
+            {contribution}
+          </p>
+        )}
       </div>
     </div>
   );

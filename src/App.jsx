@@ -5,6 +5,7 @@ import Categories from './Categories/Categories.jsx';
 import Introduction from './Center/Card.jsx';
 import ProjectCard from './Projects/ProjectCard.jsx';
 import Project1 from './assets/APOD.png'
+import Project2 from './assets/waterverse.png'
 import FadeInSection from './Components/FadeInSection.jsx';
 import linkedinIcon from './assets/linkedin.svg';
 import githubIcon from './assets/github.svg';
@@ -79,9 +80,17 @@ function App() {
             title="APOD Project"
             description="This is a simple web application that integrates with NASA's Astronomy Picture of the Day (APOD) API to fetch and display stunning images or videos from space every day.
             It showcases the daily astronomy media along with its official NASA-provided description."
+            contribution="Solo Project to put my HTML, CSS, and JavaScript skills to practice along with fetching an API and showcasing the information pulled."
             link="https://kentree.github.io/NASA-APOD/"
           />
-          {/* Add more <ProjectCard />s as needed */}
+          <ProjectCard
+            image={Project2}
+            title="Water-Verse"
+            description="My first hackathon project with a group of 2 other spectacular and intelligent programmers. We had an amazing learning experience with all of us learning HTML, CSS, and JavaScript
+            within the 24 hours we were given. This project was aimed to guide CSUF students to the nearest clean water stations available around them. Our devpost can be found above, along with a demo video."
+            contribution="Focused almost solely on functionality with JavaScript. Implemented use of the Leaflet library along with managing permissions for location access for the user."
+            link="https://devpost.com/software/college-campus-water-fountain-interactive-map"
+          />
         </div>
       </section>
     </>
