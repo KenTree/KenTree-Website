@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/KenTree-Website/',  // 👈 important!
+  base: '/' // <-- this ensures Vite generates paths from root
 })
