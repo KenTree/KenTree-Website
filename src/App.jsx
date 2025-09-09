@@ -14,10 +14,12 @@ import reactIcon from './assets/react.svg';
 import htmlIcon from './assets/html.svg';
 import cssIcon from './assets/css.svg';
 import jsIcon from './assets/js.svg';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return(
     <>
+      <Analytics />
       <Categories />
 
       {/* Home Section */}
