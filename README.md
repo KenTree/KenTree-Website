@@ -1,5 +1,4 @@
 # Kenneth's Portfolio Website
----
 ## 🚀 About This Project
 
 This website was created not just as a portfolio, but also as **learning journey** to:
