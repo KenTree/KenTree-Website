@@ -6,6 +6,7 @@ import Introduction from './Center/Card.jsx';
 import ProjectCard from './Projects/ProjectCard.jsx';
 import Project1 from './assets/APOD.png'
 import Project2 from './assets/waterverse.png'
+import Project3 from './assets/sonar.png'
 import FadeInSection from './Components/FadeInSection.jsx';
 import linkedinIcon from './assets/linkedin.svg';
 import githubIcon from './assets/github.svg';
@@ -92,6 +93,14 @@ function App() {
             within the 24 hours we were given. This project was aimed to guide CSUF students to the nearest clean water stations available around them. Our devpost can be found above, along with a demo video."
             contribution="Focused almost solely on functionality with JavaScript. Implemented use of the Leaflet library along with managing permissions for location access for the user."
             link="https://devpost.com/software/college-campus-water-fountain-interactive-map"
+          />
+                    <ProjectCard
+            image={Project3}
+            title="Sonar Scanner"
+            description="An Arduino-based sonar scanning system that combines an ultrasonic distance sensor with a micro servo motor to detect and visualize nearby objects. The project integrates sensor control, servo movement, and serial communication to measure distance in real-time while sweeping across a defined angle range. \
+              Built and tested using Arduino IDE, the system demonstrates core embedded programming principles such as digital I/O handling, sensor timing, and hardware interfacing. Power management was refined using a dedicated power adapter and proper grounding for stable operation. 
+              Progress and code are tracked through the project’s GitHub repository."
+            link="https://github.com/KenTree/sonar-arduino"
           />
         </div>
       </section>
