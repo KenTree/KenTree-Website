@@ -40,9 +40,8 @@ function App() {
         <FadeInSection>
           <div className="aboutDescription">
             <p>
-              Hi! I'm Kenneth, a passionate developer who loves building fun web projects on the side and learning more in-depth knowledge
-              about software engineering in order to solve critical problems for the world. I am very interested and passionate about the growing field of
-              defense technology software which further fuels my flame to learn more, problem solve, and collaborate with others.
+              Hi! I'm Kenneth, a passionate developer with a strong interest in systems programming and C++. I'm driven to learn deeper software engineering concepts so I can solve complex, real-world problems.
+              I am fascinated by the rapidly growing defense technology industry, which motivates me to push my technical abilities, tackle challenging problems, and collaborate with others to build impactful, mission-critical solutions.
             </p>
           </div>
         </FadeInSection>
@@ -64,12 +63,10 @@ function App() {
               <img src={htmlIcon} alt="HTML" className="skillIcon" title="HTML" />
               <img src={cssIcon} alt="CSS" className="skillIcon" title="CSS" />
               <img src={jsIcon} alt="JavaScript" className="skillIcon" title="JavaScript" />
-              {/* Add more icons as needed */}
             </div>
           </div>
         </FadeInSection>
         <Introduction />
-        {/* You can add more About content here */}
       </section>
 
       {/* Projects Section */}
@@ -98,7 +95,7 @@ function App() {
             image={Project3}
             title="Sonar Scanner"
             description="An Arduino-based sonar scanning system that combines an ultrasonic distance sensor with a micro servo motor to detect and visualize nearby objects. The project integrates sensor control, servo movement, and serial communication to measure distance in real-time while sweeping across a defined angle range. \
-              Built and tested using Arduino IDE, the system demonstrates core embedded programming principles such as digital I/O handling, sensor timing, and hardware interfacing. Power management was refined using a dedicated power adapter and proper grounding for stable operation. 
+              Built and tested using Arduino IDE, the system demonstrates core embedded programming principles such as digital I/O handling, sensor timing, and hardware interfacing. Power management was refined using a dedicated power adapter and proper grounding for stable operation.
               Progress and code are tracked through the project’s GitHub repository."
             link="https://github.com/KenTree/sonar-arduino"
           />
