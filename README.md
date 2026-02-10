@@ -3,7 +3,7 @@
 This website was created not just as a portfolio, but also as learning journey to:
 
 - Mark down my projects
-- Continuouing my addition of technical skills
+- Continuing my addition of technical skills
 
 ---
 
