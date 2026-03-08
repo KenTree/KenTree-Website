@@ -7,7 +7,10 @@ function FadeInSection({ children, className = '' }) {
   useEffect(() => {
     const observer = new window.IntersectionObserver(
       ([entry]) => {
-        setVisible(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect(); // stop observing once visible
+        }
       },
       { threshold: 0.2 }
     );
