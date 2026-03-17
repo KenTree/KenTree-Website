@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import styles from '../styles/ProjectCard.module.css';
 
-function ProjectCard({ image, title, description, link, contribution }) {
+function ProjectCard({ image, title, description, link, contribution, tech }) {
   const cardRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -32,6 +32,22 @@ function ProjectCard({ image, title, description, link, contribution }) {
             <strong>My Contribution: </strong>
             {contribution}
           </p>
+        )}
+        {tech && (
+          <div className={styles.techSection}>
+            {tech.languages && (
+              <p><strong>Languages: </strong>{tech.languages.join(', ')}</p>
+            )}
+            {tech.libraries && (
+              <p><strong>Libraries & Frameworks: </strong>{tech.libraries.join(', ')}</p>
+            )}
+            {tech.tools && (
+              <p><strong>Tools & Platforms: </strong>{tech.tools.join(', ')}</p>
+            )}
+            {tech.concepts && (
+              <p><strong>Concepts: </strong>{tech.concepts.join(', ')}</p>
+            )}
+          </div>
         )}
       </div>
     </div>

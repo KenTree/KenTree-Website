@@ -85,6 +85,11 @@ function App() {
             It showcases the daily astronomy media along with its official NASA-provided description."
             contribution="Solo Project to put my HTML, CSS, and JavaScript skills to practice along with fetching an API and showcasing the information pulled."
             link="https://kentree.github.io/NASA-APOD/"
+            tech={{
+              languages: ['HTML', 'CSS', 'JavaScript'],
+              tools: ['NASA APOD API'],
+              concepts: ['REST API Integration', 'DOM Manipulation', 'Async/Await']
+            }}
           />
           <ProjectCard
             image={Project2}
@@ -93,6 +98,11 @@ function App() {
             within the 24 hours we were given. This project was aimed to guide CSUF students to the nearest clean water stations available around them. Our devpost can be found above, along with a demo video."
             contribution="Focused almost solely on functionality with JavaScript. Implemented use of the Leaflet library along with managing permissions for location access for the user."
             link="https://devpost.com/software/college-campus-water-fountain-interactive-map"
+            tech={{
+              languages: ['HTML', 'CSS', 'JavaScript'],
+              libraries: ['Leaflet.js'],
+              concepts: ['Interactive Mapping', 'Geolocation API', 'Browser Permissions']
+            }}
           />
           <ProjectCard
             image={Project3}
@@ -101,13 +111,23 @@ function App() {
             Built and tested using Arduino IDE, the system demonstrates core embedded programming principles such as digital I/O handling, sensor timing, and hardware interfacing. Power management was refined using a dedicated power adapter and proper grounding for stable operation.
             Progress and code are tracked through the project’s GitHub repository."
             link="https://github.com/KenTree/sonar-arduino"
+            tech={{
+              languages: ['C++'],
+              tools: ['Arduino IDE'],
+              concepts: ['Embedded Systems', 'Digital I/O', 'Serial Communication', 'Sensor Integration']
+            }}
           />
           <ProjectCard
             image={Project4}
             title="Clash of Clans War Tracker"
-            description="A Discord bot built in Python that integrates with the Clash of Clans REST API to automate war tracking for a clan. Handles API authentication, data parsing, and structured object modeling to track active wars, member attacks, and war states.
-            Features include automated Discord pings when war ends are approaching, CoC-to-Discord member linking with persistent local storage, and support for both regular wars and Clan War Leagues. Designed with a modular project structure separating API logic, data models, and bot commands."
+            description="A Discord bot built in Python..."
             link="https://github.com/KenTree/clash-war-tracker"
+            tech={{
+              languages: ['Python'],
+              libraries: ['discord.py', 'requests', 'python-dotenv'],
+              tools: ['Clash of Clans REST API', 'Discord API'],
+              concepts: ['REST API Integration', 'OOP', 'Background Task Scheduling']
+            }}
           />
         </div>
       </section>
