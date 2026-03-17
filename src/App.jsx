@@ -11,6 +11,7 @@ import FadeInSection from './Components/FadeInSection.jsx';
 import linkedinIcon from './assets/linkedin.svg';
 import githubIcon from './assets/github.svg';
 import cppIcon from './assets/cpp.svg';
+import pyIcon from './assets/python.svg';
 import reactIcon from './assets/react.svg';
 import htmlIcon from './assets/html.svg';
 import cssIcon from './assets/css.svg';
@@ -40,7 +41,7 @@ function App() {
         <FadeInSection>
           <div className="aboutDescription">
             <p>
-              Hi! I'm Kenneth, a passionate developer with a strong interest in systems programming and C++. I'm driven to learn deeper software engineering concepts so I can solve complex, real-world problems.
+              Hi! I'm Kenneth, a passionate developer with a strong interest in software engineering, particularly in applications within the defense and aerospace industries. I'm driven to learn deeper software engineering concepts so I can solve complex, real-world problems.
               I am fascinated by the rapidly growing defense technology industry, which motivates me to push my technical abilities, tackle challenging problems, and collaborate with others to build impactful, mission-critical solutions.
             </p>
           </div>
@@ -59,6 +60,7 @@ function App() {
             </div>
             <div className="skillsIcons">
               <img src={cppIcon} alt="C++" className="skillIcon" title="C++" />
+              <img src={pyIcon} alt="Python" className="skillIcon" title="Python" />
               <img src={reactIcon} alt="React" className="skillIcon" title="React" />
               <img src={htmlIcon} alt="HTML" className="skillIcon" title="HTML" />
               <img src={cssIcon} alt="CSS" className="skillIcon" title="CSS" />
