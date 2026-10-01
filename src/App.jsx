@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import FadeInSection from './Components/FadeInSection.jsx';
-import profile from './assets/me.jpg';
+import profile from './assets/hackathon-profile.jpg';
 import apod from './assets/APOD.png';
 import waterverse from './assets/waterverse.png';
 import sonar from './assets/sonar.png';
@@ -75,7 +75,7 @@ function App() {
       <main id="main">
         <section id="home" className="hero container" aria-labelledby="hero-title">
           <FadeInSection className="hero-layout">
-            <img className="portrait" src={profile} alt="Kenneth Ly working on a laptop" fetchPriority="high" />
+            <div className="portrait"><img src={profile} alt="Kenneth Ly collaborating at a hackathon" fetchPriority="high" /></div>
             <div className="hero-copy">
               <span className="eyebrow">Software Engineer</span>
               <h1 id="hero-title">Kenneth Ly</h1>
