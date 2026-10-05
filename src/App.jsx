@@ -79,7 +79,7 @@ function App() {
             <div className="hero-copy">
               <span className="eyebrow">Software Engineer</span>
               <h1 id="hero-title">Kenneth Ly</h1>
-              <p>I’m Kenneth, a passionate developer with a strong interest in software and hardware engineering, particularly within applications at the intersection of edge devices and AI. I am fascinated and inspired by the rapidly advancing tech industry, which motivates me to push the limits of my technical abilities, tackle challenging problems, and collaborate with others to build impactful solutions.</p>
+              <p>I’m Kenneth, a passionate developer with a strong interest in software and hardware engineering. I am fascinated and inspired by the rapidly advancing tech industry, which motivates me to push the limits of my technical abilities, tackle challenging problems, and collaborate with others to build impactful solutions.</p>
               <div className="button-row"><a className="button primary" href="#projects">View Projects</a><a className="button" href="#contact">Contact Me</a></div>
             </div>
           </FadeInSection>
