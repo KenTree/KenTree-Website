@@ -20,7 +20,6 @@ This website was created not just as a portfolio, but also as learning journey t
 | React           | UI framework                          |
 | Vite            | Build tool & dev server               |
 | CSS Modules     | Scoped component styles               |
-| Three.js / Vanta.js | Interactive 3D animated backgrounds |
 | Vercel and Github   | Version control and deployment         |
 
 ---
