@@ -11,10 +11,10 @@ import './index.css';
 
 const projects = [
   {
-    image: apod, title: 'APOD — Astronomy Picture of the Day',
-    description: "I built this web application that integrates with NASA’s Astronomy Picture of the Day (APOD) API to fetch and display stunning images or videos from space every day. It showcases the daily astronomy media along with its official NASA-provided description, formatted for a better viewing experience.",
-    tags: ['HTML', 'CSS', 'JavaScript', 'API'],
-    links: [{ label: 'Code', href: 'https://github.com/KenTree/NASA-APOD', icon: true }, { label: 'Live Demo', href: 'https://kentree.github.io/NASA-APOD/' }],
+    image: sonar, title: 'Sonar Scanner',
+    description: 'An Arduino-based scanning system that uses an ultrasonic sensor and a servo motor to detect nearby objects. Real-time distance measurements and angular sweeps bring the surrounding environment to life on a radar-style display, combining embedded programming, hardware interfacing, and serial communication.',
+    tags: ['C++', 'Arduino UNO', 'Embedded Systems'],
+    links: [{ label: 'Code', href: 'https://github.com/KenTree/sonar-arduino', icon: true }],
   },
   {
     image: waterverse, title: 'Water-Verse',
@@ -23,10 +23,10 @@ const projects = [
     links: [{ label: 'DevPost', href: 'https://devpost.com/software/college-campus-water-fountain-interactive-map' }],
   },
   {
-    image: sonar, title: 'Sonar Scanner',
-    description: 'An Arduino-based scanning system that uses an ultrasonic sensor and a servo motor to detect nearby objects. Real-time distance measurements and angular sweeps bring the surrounding environment to life on a radar-style display, combining embedded programming, hardware interfacing, and serial communication.',
-    tags: ['C++', 'Arduino UNO', 'Embedded Systems'],
-    links: [{ label: 'Code', href: 'https://github.com/KenTree/sonar-arduino', icon: true }],
+    image: apod, title: 'APOD — Astronomy Picture of the Day',
+    description: "I built this web application that integrates with NASA’s Astronomy Picture of the Day (APOD) API to fetch and display stunning images or videos from space every day. It showcases the daily astronomy media along with its official NASA-provided description, formatted for a better viewing experience.",
+    tags: ['HTML', 'CSS', 'JavaScript', 'API'],
+    links: [{ label: 'Code', href: 'https://github.com/KenTree/NASA-APOD', icon: true }, { label: 'Live Demo', href: 'https://kentree.github.io/NASA-APOD/' }],
   },
   {
     image: clash, title: 'Clash of Clans War Tracker',
